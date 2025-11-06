@@ -1,0 +1,174 @@
+klabnik-rust:
+  type: book
+  title: "The Rust Programming Language"
+  author:
+    - "Klabnik, Steve"
+    - "Nichols, Carol"
+  date: 2022
+  publisher: "No Starch Press"
+  isbn: "9781718503105"
+  url: "https://nostarch.com/rust-programming-language-2nd-edition"
+
+nominomicon:
+  type: book
+  title: "The Nominomicon"
+  author:
+    - "The Rust Project Developers"
+  date: 2023
+  url: "https://tfpk.github.io/nominomicon/"
+
+guards-rust:
+  type: web
+  title: Guards
+  author:
+    - The Rust Project
+  container-title: Rust By Example
+  URL: https://doc.rust-lang.org/rust-by-example/flow_control/match/guard.html
+  accessed: 2025-09-02
+  note: >
+    Demonstrates how to use match guards in Rust to filter match arms based on conditions.
+    Includes examples with enums and tuples, and notes on pattern coverage.
+
+binding-rust:
+  type: web
+  title: Binding
+  author:
+    - The Rust Project
+  container-title: Rust By Example
+  URL: https://doc.rust-lang.org/rust-by-example/flow_control/match/binding.html
+  accessed: 2025-09-02
+  note: >
+    Demonstrates how to use the `@` sigil in `match` expressions to bind values to names.
+    Includes examples with ranges and enums, and notes on pattern coverage.
+
+destructuring-rust:
+  type: web
+  title: Destructuring
+  author:
+    - The Rust Project
+  container-title: Rust By Example
+  URL: https://doc.rust-lang.org/rust-by-example/flow_control/match/destructuring.html
+  accessed: 2025-09-02
+  note: >
+    Demonstrates how to destructure different Data Types for use in match control flow elements.
+
+rust-reference-match-expr:
+  type: web
+  author:
+    - The Rust Project
+  title: Match expressions
+  container-title: The Rust Reference
+  URL: https://doc.rust-lang.org/stable/reference/expressions/match-expr.html
+  accessed: 2025-09-02
+  note: >
+    Provides detailed information on the syntax and semantics of match expressions in Rust.
+    Covers topics such as scrutinee expressions, pattern matching, match guards, and binding modes.
+
+abap-kernel:
+    type: book
+    title: "SAP-Architektur: Evolution und Technologie des SAP-Systems"
+    author: "Neuendorf, H."
+    year: 2020
+    publisher: "Springer Vieweg"
+    url: "https://www.springer.com/de/book/9783658324567"
+    notes: "Belegt die Rolle des ABAP-Kernels innerhalb der SAP-Systemarchitektur, seine Schnittstellen zu Betriebssystem und Datenbank."
+  
+sap_help_build:
+    type: web
+    title: "Preparing SAP Kernel Update / Rolling Kernel Switch Media"
+    author: "SAP SE"
+    year: 2023
+    url: "https://help.sap.com/docs/SAP_LANDSCAPE_MANAGEMENT_ENTERPRISE/e7dead4286c545808b3bd24feee7448c/524bf2f96b414eb28c703714128a1935.html"
+    notes: "Belegt den Build-Prozess, Erstellung von ausführbaren Kernel-Dateien, Build-Protokolle und Diagnosen."
+    
+gnu_make_manual:
+    type: web
+    title: "GNU Make Manual"
+    author: "Free Software Foundation"
+    year: 2023
+    url: "https://www.gnu.org/software/make/manual/make.html"
+    notes: "Belegt grundlegende Prinzipien von Build-Systemen, Abhängigkeitsmanagement und automatisierten Kompilierungen, die für den Build-Prozess des ABAP-Kernels relevant sind."
+
+rust-std-iter-iterator:
+  type: web
+  author: 
+    - The Rust Project
+  title: Iterator
+  container-title: Rust Standard Library
+  URL: "https://doc.rust-lang.org/std/iter/index.html"
+  accessed: 2025-09-02
+  note: >
+    The primary trait for working with iterators in Rust, requiring the implementation of the `next` method.
+    Provides methods for iteration and combinators for transforming sequences.
+
+logpai2019:
+  type: article
+  title: "Tools and Benchmarks for Automated Log Parsing"
+  author:
+    - "Zhu, Jieming"
+    - "He, Shilin"
+    - "Liu, Jinyang"
+    - "He, Pinjia"
+    - "Xie, Qi"
+    - "Zheng, Zibin"
+    - "Lyu, Michael R."
+  date: 2019
+  event: "IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)"
+  pages: "121-130"
+  publisher: "IEEE / ACM"
+  doi: "10.1109/ICSE-SEIP.2019.00021"
+  url: "https://dl.acm.org/doi/10.1109/ICSE-SEIP.2019.00021"
+  abstract: >
+    Logs are imperative in development and maintenance of software systems, but their
+    unstructured nature and explosive volume pose challenges. This paper presents a
+    comprehensive evaluation of 13 automated log parsers over 16 real-world datasets
+    spanning distributed systems, supercomputers, operating systems, mobile systems,
+    server applications, and standalone software. The authors report results on accuracy,
+    robustness, and efficiency, and release the tools, datasets, and benchmarks for reuse.
+  keywords:
+    - "log parsing"
+    - "benchmark"
+    - "log analysis"
+    - "LogPAI"
+  note: "Paper and artifacts (tools/datasets) released by the LogPAI project."
+
+iso25010-2011:
+  type: legislation
+  title: "Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models"
+  author:
+    - "International Organization for Standardization"
+    - "International Electrotechnical Commission"
+  date: 2011
+  publisher: "ISO/IEC"
+  number: "ISO/IEC 25010:2011"
+  url: "https://www.iso.org/standard/35733.html"
+  abstract: >
+    ISO/IEC 25010:2011 defines a quality in use model composed of five characteristics
+    and a product quality model composed of eight characteristics. Each characteristic
+    is further subdivided into sub-characteristics that can be used to specify quality
+    requirements and to evaluate the quality of software products.
+  keywords:
+    - "software quality"
+    - "quality models"
+    - "SQuaRE"
+    - "ISO/IEC 25010"
+  note: "Part of the ISO/IEC 25000 SQuaRE series of standards."
+
+spitta2000:
+  type: book
+  title: "Software Engineering und Prototyping: Eine Konstruktionslehre für administrative Softwaresysteme"
+  author:
+    - "Spitta, Thorsten"
+  language: "de"
+  edition: "1. Aufl."
+  date: 2000
+  location: "Berlin, Heidelberg"
+  publisher: "Springer"
+  isbn: "978-3-642-95519-8"
+  doi: "10.1007/978-3-642-95519-8"
+  url: "https://link.springer.com/book/10.1007/978-3-642-95519-8"
+  keywords:
+    - "Software Engineering"
+    - "Prototyping"
+    - "Administrative Softwaresysteme"
+  note: "German edition."
