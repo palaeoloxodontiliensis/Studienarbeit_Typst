@@ -165,6 +165,7 @@ But it supports better auto-complete and a nicer user experience.
 3. Start a new project
 4. Manually copy all files from the template to the new project
 
+
 ## 💡 Feedback
 
 **Anything Missing?** Please [create an issue](https://github.tools.sap/I550629/vt-template-typst/issues/new) or open a Pull Request right away.
