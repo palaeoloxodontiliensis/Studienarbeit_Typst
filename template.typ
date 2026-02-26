@@ -13,8 +13,8 @@
     "en": "Processing Period",
   ),
   "matriculation_number": (
-    "de": "Matrikelnummer",
-    "en": "Matriculation Number",
+    "de": "Matrikelnummern",
+    "en": "Matriculation Numbers",
   ),
   "course": (
     "de": "Kurs",
@@ -24,12 +24,8 @@
     "de": "Ausbildungsfirma",
     "en": "Training Company",
   ),
-  "supervisor_company": (
-    "de": "Betreuer der Ausbildungsfirma",
-    "en": "Supervisor of the Training Company",
-  ),
   "supervisor_university": (
-    "de": "Gutachter der Dualen Hochschule",
+    "de": "Betreuer der Dualen Hochschule",
     "en": "Reviewer of the Duale Hochschule",
   ),
   "part_of": (
@@ -109,8 +105,8 @@
   title_long: none,
   title_short: none,
   thesis_type: none,
-  firstname: none,
-  lastname: none,
+  firstfullname: none,
+  secondfullname: none,
   signature_place: none,
   matriculation_number: none,
   course: none,
@@ -220,9 +216,6 @@
   grid(
     columns: (1fr, 1fr),
     align(left)[
-      #image("assets/SAP-Logo.svg", height: 2.5cm)
-    ],
-    align(right)[
       #image("assets/DHBW-Logo.svg", height: 2.5cm)
     ],
   )
@@ -247,7 +240,7 @@
     #v(0.5cm)
 
     #__tpl_message("by", lang) \
-    #text(16pt)[*#firstname #lastname*]
+    #text(16pt)[*#firstfullname#secondfullname*]
   ]
 
   v(1.5cm)
@@ -270,7 +263,6 @@
         69190 Walldorf, Deutschland
       ],
 
-      [*#__tpl_message("supervisor_company", lang)*], [#supervisor_company],
       [*#__tpl_message("supervisor_university", lang)*], [#supervisor_university],
     )
   ]
@@ -285,7 +277,7 @@
   declarationOfOriginalityWith(
     title_long: title_long,
     is_digital: is_digital,
-    author_reversed: [#lastname, #firstname],
+    author_reversed: [#firstfullname#secondfullname],
     signature_place: signature_place,
     lang: lang,
     type: thesis_type,
