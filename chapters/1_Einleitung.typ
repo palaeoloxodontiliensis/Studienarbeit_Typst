@@ -6,3 +6,13 @@ Mit der quantifizierung von Musik durch moderne Sequenzer und Digital Audio Work
 Ziel dieser Arbeit ist es ein System zu erstellen, dass im ersten Schritt die Struktur sinvoll gewählter Pop-Musik Videos erkennen soll und aus diesen durch Zuordnung der Strukturelemente zu einer Typ-3 Grammatik für die menschliche Wahrnehmung stimmige Remixe zu generieren. Dabei soll eine beliebige länge angegeben werden können die ungefähr eingehalten wird. Zudem soll es möglich sein weitere nicht aus dem ursprünglichen Song stammende Elemente in den Remix einzubringen. Für die Videos sollen Abschnitte mit einem Crossfade oder anderen Übergängen ineinander greifen.
 
 == Aufbau der Arbeit
+
+-Kapitel 2 Theoretische Grundlagen
+
+-Kapitel 3 Praktische Umsetzungsversuche
+
+-Kapitel 4 Auswertungsstrategie
+
+-Kapitel 5 Betrachtung der Ergebnisse
+
+-Kapitel 6 Fazit und Ausblick
