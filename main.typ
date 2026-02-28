@@ -52,8 +52,16 @@
   // The short form is used every time and the long form is used
   // additionally the first time you reference the acronym.
   acronyms: (
-    (key: "ABAP", short: "NN", long: "Neural Network"),
-    (key: "GCC", short: "SG", long: "Singular"),
+    (key: "DAW", short: "DAW", long: "Digital Audio Workstation"),
+    (key: "DL", short: "DL", long: "Deep Learning"),
+    (key: "HPSS", short: "HPSS", long: "Harmonic-Percussive Source Separation"),
+    (key: "INST", short: "INST", long: "Instrumental"),
+    (key: "MFC", short: "MFC", long: "Mel-Frequency-Cepstrum"),
+    (key: "MFCC", short: "MFCC", long: "Mel-Frequency Cepstral Coefficients"),
+    (key: "REPET", short: "REPET", long: "REpeating Pattern Extraction Technique"),
+    (key: "RMS", short: "RMS", long: "Root Mean Square"),
+    (key: "STFT", short: "STFT", long: "Short-Time Fourier Transform"),
+    (key: "VOC", short: "VOC", long: "Vocal")
   ),
 )
 
@@ -64,3 +72,5 @@
 #include "chapters/4_Auswertungsstrategie.typ"
 #include "chapters/5_Betrachtung_der_Ergebnisse.typ"
 #include "chapters/6_Fazit_und_Ausblick.typ"
+
+
